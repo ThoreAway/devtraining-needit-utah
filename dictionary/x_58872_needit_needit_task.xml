@@ -3,9 +3,10 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" mandatory="true" max_length="40" name="u_choice_3" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
+                <element inactive="true" inactive_on_update="true" label="Legal" sequence="0" value="legal"/>
                 <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
-                <element inactive_on_update="false" label="Leal" sequence="2" value="leal"/>
-                <element inactive_on_update="false" label="Finance" sequence="3" value="finance"/>
+                <element inactive_on_update="false" label="Finance" sequence="2" value="finance"/>
+                <element inactive_on_update="false" label="Legal" sequence="3" value="legal"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal 1" label="What needed" mandatory="true" max_length="40" name="u_choice_4" type="string">
